@@ -128,4 +128,24 @@
     <string name="home_app_management_empty">已请求或声明 Shizuku 的应用程序将显示在此处。</string>
     <string name="home_adb_is_limited_title">您需要进行额外的步骤</string>
     <string name="home_adb_is_limited_description">您的设备制造商限制了 adb 的权限，使用 Shizuku 的应用无法正常工作。\n\n通常，在“开发者选项”中调整一些选项即可解除此限制。请阅读帮助来了解具体的操作方式。\n\n您可能需要重新启动 Shizuku 以使操作生效。</string>
+    <string name="settings_start_on_boot_wireless">开机启动 (无线调试)</string>
+    <string name="settings_start_on_boot_wireless_summary">对于未 root 设备，Shizuku 可以通过无线调试开机启动</string>
+    <string name="settings_adb_root">ADB root (已 root debug 系统)</string>
+    <string name="settings_adb_root_summary">对于使用 userdebug 构建的系统, Shizuku 可以通过 root 开机启动。</string>
+    
+    <!-- 无线调试自启动 -->
+    <string name="wireless_boot_enabled">已开启无线调试开机自启</string>
+    <string name="wireless_boot_component_error">无法开启启动组件</string>
+    <string name="wireless_boot_permission_tooltip">使用 Shizuku 通过无线调试开机启动时需要授予 WRITE_SECURE_SETTINGS 权限</string>
+    <string name="wireless_boot_wifi_required">此功能需要保持 Wi-Fi 连接</string>
+
+    <string name="start_shizuku_first">请先启动 Shizuku 服务，已返回主界面。</string>
+    <string name="permission_write_secure_settings_required">开机启动 (无线调试) 功能需要授予 WRITE_SECURE_SETTINGS 权限</string>
+    <string name="permission_write_secure_settings_grant_info">这个权限可以通过 ADB 指令授予：\nadb shell pm grant moe.shizuku.manager android.permission.WRITE_SECURE_SETTINGS</string>
+    <string name="permission_required">需要权限</string>
+    <string name="permission_disabled_feature">缺少必要权限，已禁用该功能</string>
+    <string name="permission_grant_automatically">自动设置</string>
+    <string name="permission_grant_manually">手动授权</string>
+    <string name="permission_granted">成功授予权限</string>
+    <string name="permission_grant_failed">授权失败n</string>
 </resources>
